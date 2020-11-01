@@ -2,7 +2,6 @@
     background-image: url(image/jawa.jpg);
     background-size: cover;
     height: 640px;
-    margin-top: -100px;
 }
 
 .jumbotron .display-4{
@@ -25,14 +24,7 @@
        color: snow;
       
 }
-
-
-
-.nav-link{
-    text-transform: uppercase;
-    margin-right: 20px
-}
-
+ 
 .container .clearfix{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -44,34 +36,33 @@
    
   }
   
-  .img2 {
+.img2 {
     float: right;
   }
 
-  .img1{
+.img1{
     float: left;
   }
 
-  .clearfix-two{
+.clearfix-two{
       overflow: auto;
       padding-bottom: 50px;
       text-align: right;
   }
  
  
-  .row .card:hover{
+.row .card:hover{
      box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
      transform :scale(1,01);
+     border-color: red;
+     background-color:salmon;
      
  }
 
-  .container-fluid {
-    padding: 70px;
-    margin-top: 70px;
+ .container .card {
+padding-bottom: 70px;
 
-  }  
-   
-
+ }
     
     
 /* desktop version */
